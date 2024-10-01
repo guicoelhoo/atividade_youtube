@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.video-container {
+    padding: 10px;
+}
+
+.video-details {
+    margin-top: 10px;
+}
+
+#video-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.channel-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.channel-logo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.channel-text {
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+}
+
+.channel-name {
+    font-size: 16px;
+}
+
+.channel-subscribers {
+    font-size: 14px;
+    color: #555;
+}
+
+.btn-subscribe {
+    margin-right: 10px;
+}
+
+.btn-like, .btn-dislike {
+    margin-right: 5px;
+}
+
+.video-description {
+    margin-top: 10px;
+}
+
+.video-description .video-views,
+.video-description .video-date {
+    font-size: 14px;
+    color: #555;
+}
+
+.video-description p {
+    font-size: 14px;
+    color: #555;
+}
+
+..menu {
+    padding: 10px;
+    background-color: #f1f1f1;
+}
+
+iframe {
+    width: 100%;
+    height: 450px;
+    border: none;
+    background-color: transparent;
+}
+
+.menu-item iframe {
+    height: 250px;
+    border: none;
+    background-color: transparent;
+}
+
+.menu-item {
+    margin-bottom: 10px;
+}
+
+.search-form {
+    width: 100%;
+    max-width: 600px;
+}
+
+.search-input {
+    width: 80%;
+}
